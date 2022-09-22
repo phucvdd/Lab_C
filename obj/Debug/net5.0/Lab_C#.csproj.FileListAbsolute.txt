@@ -1,0 +1,16 @@
+D:\Documents\1.FPT\FA22\PRN211\code\Lab_C#\bin\Debug\net5.0\Lab_C#.exe
+D:\Documents\1.FPT\FA22\PRN211\code\Lab_C#\bin\Debug\net5.0\Lab_C#.deps.json
+D:\Documents\1.FPT\FA22\PRN211\code\Lab_C#\bin\Debug\net5.0\Lab_C#.runtimeconfig.json
+D:\Documents\1.FPT\FA22\PRN211\code\Lab_C#\bin\Debug\net5.0\Lab_C#.runtimeconfig.dev.json
+D:\Documents\1.FPT\FA22\PRN211\code\Lab_C#\bin\Debug\net5.0\Lab_C#.dll
+D:\Documents\1.FPT\FA22\PRN211\code\Lab_C#\bin\Debug\net5.0\Lab_C#.pdb
+D:\Documents\1.FPT\FA22\PRN211\code\Lab_C#\obj\Debug\net5.0\Lab_C#.csproj.AssemblyReference.cache
+D:\Documents\1.FPT\FA22\PRN211\code\Lab_C#\obj\Debug\net5.0\Lab_C#.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\1.FPT\FA22\PRN211\code\Lab_C#\obj\Debug\net5.0\Lab_C#.AssemblyInfoInputs.cache
+D:\Documents\1.FPT\FA22\PRN211\code\Lab_C#\obj\Debug\net5.0\Lab_C#.AssemblyInfo.cs
+D:\Documents\1.FPT\FA22\PRN211\code\Lab_C#\obj\Debug\net5.0\Lab_C#.csproj.CoreCompileInputs.cache
+D:\Documents\1.FPT\FA22\PRN211\code\Lab_C#\obj\Debug\net5.0\Lab_C#.dll
+D:\Documents\1.FPT\FA22\PRN211\code\Lab_C#\obj\Debug\net5.0\refint\Lab_C#.dll
+D:\Documents\1.FPT\FA22\PRN211\code\Lab_C#\obj\Debug\net5.0\Lab_C#.pdb
+D:\Documents\1.FPT\FA22\PRN211\code\Lab_C#\obj\Debug\net5.0\Lab_C#.genruntimeconfig.cache
+D:\Documents\1.FPT\FA22\PRN211\code\Lab_C#\obj\Debug\net5.0\ref\Lab_C#.dll
