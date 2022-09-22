@@ -2,7 +2,7 @@ using System;
 // Khang
 namespace Lab_C
 {
-    abstract class Marks
+    public abstract class Marks
     {
         private int _passLevel;
         public int PassLevel
