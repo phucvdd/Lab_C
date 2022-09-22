@@ -1,29 +1,27 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 // Huy
-namespace Lab_C_.obj
+namespace Lab_C
 {
-    public class Marks_Subject : Marks, IMarks
+    public class Marks_Subject : Marks ,IMarks
     {
         private string _rollNo;
-        public int RollNo
+        public string RollNo
         {
             get { return _rollNo; }
             set
             {
                 string rollnum = value;
 
-                if (!rollnum.StartsWith("a"))
+                if (!rollnum.StartsWith("A"))
                 {
                     System.Console.Write("The first character must be A!");
                     System.Console.Write("Input again: ");
-                    rollnum = MyConsole.ReadLine();
+                    rollnum = Console.ReadLine();
                 }
 
 
-                myVar = value;
+                _rollNo = rollnum;
             }
         }
         private string _studentName;
@@ -34,12 +32,12 @@ namespace Lab_C_.obj
             {
                 string name = value;
 
-                while (name.Length() > 50)
+                while (name.Length > 50)
                 {
-                    if (name.Length() > 50)
+                    if (name.Length > 50)
                     {
                         System.Console.Write("Name only have 50 character! Input again: ");
-                        name = Console.Readline();
+                        name = Console.ReadLine();
                     }
                 }
 

@@ -1,6 +1,6 @@
 using System;
 // Khang
-namespace Lab_C_
+namespace Lab_C
 {
     abstract class Marks
     {

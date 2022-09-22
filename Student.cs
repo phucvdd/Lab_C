@@ -1,6 +1,6 @@
 using System;
 
-namespace Lab_C_
+namespace Lab_C
 {
     class Student
     {

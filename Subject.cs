@@ -66,15 +66,5 @@ namespace Lab_C
         
     }
 
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Subject sb = new Subject();
-            
-            sb.SubjectCode = "";
-            
-            
-        }
-    }
+   
 }
