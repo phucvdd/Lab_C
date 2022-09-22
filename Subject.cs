@@ -1,3 +1,4 @@
+//trinh nè 
 namespace Lab_C
 {
     public class Subject
