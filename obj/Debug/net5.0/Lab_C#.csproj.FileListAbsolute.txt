@@ -1,0 +1,16 @@
+D:\FA22\PRN211\Lab_C\bin\Debug\net5.0\Lab_C#.exe
+D:\FA22\PRN211\Lab_C\bin\Debug\net5.0\Lab_C#.deps.json
+D:\FA22\PRN211\Lab_C\bin\Debug\net5.0\Lab_C#.runtimeconfig.json
+D:\FA22\PRN211\Lab_C\bin\Debug\net5.0\Lab_C#.runtimeconfig.dev.json
+D:\FA22\PRN211\Lab_C\bin\Debug\net5.0\Lab_C#.dll
+D:\FA22\PRN211\Lab_C\bin\Debug\net5.0\Lab_C#.pdb
+D:\FA22\PRN211\Lab_C\obj\Debug\net5.0\Lab_C#.csproj.AssemblyReference.cache
+D:\FA22\PRN211\Lab_C\obj\Debug\net5.0\Lab_C#.GeneratedMSBuildEditorConfig.editorconfig
+D:\FA22\PRN211\Lab_C\obj\Debug\net5.0\Lab_C#.AssemblyInfoInputs.cache
+D:\FA22\PRN211\Lab_C\obj\Debug\net5.0\Lab_C#.AssemblyInfo.cs
+D:\FA22\PRN211\Lab_C\obj\Debug\net5.0\Lab_C#.csproj.CoreCompileInputs.cache
+D:\FA22\PRN211\Lab_C\obj\Debug\net5.0\Lab_C#.dll
+D:\FA22\PRN211\Lab_C\obj\Debug\net5.0\refint\Lab_C#.dll
+D:\FA22\PRN211\Lab_C\obj\Debug\net5.0\Lab_C#.pdb
+D:\FA22\PRN211\Lab_C\obj\Debug\net5.0\Lab_C#.genruntimeconfig.cache
+D:\FA22\PRN211\Lab_C\obj\Debug\net5.0\ref\Lab_C#.dll

@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Acer\\.nuget\\packages\\": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\1.FPT\\FA22\\PRN211\\code\\Lab_C#\\Lab_C#.csproj",
+      "projectUniqueName": "D:\\FA22\\PRN211\\Lab_C\\Lab_C#.csproj",
       "projectName": "Lab_C#",
-      "projectPath": "D:\\Documents\\1.FPT\\FA22\\PRN211\\code\\Lab_C#\\Lab_C#.csproj",
-      "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\1.FPT\\FA22\\PRN211\\code\\Lab_C#\\obj\\",
+      "projectPath": "D:\\FA22\\PRN211\\Lab_C\\Lab_C#.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "D:\\FA22\\PRN211\\Lab_C\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
