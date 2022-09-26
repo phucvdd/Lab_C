@@ -6,7 +6,7 @@ namespace Lab_C
     {
         static void Main(string[] args)
         {
-            
+            // 12312312312312
         }
    }
 }

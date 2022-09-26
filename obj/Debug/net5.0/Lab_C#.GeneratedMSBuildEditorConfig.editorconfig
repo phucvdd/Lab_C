@@ -7,4 +7,8 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Lab_C_
+<<<<<<< HEAD
 build_property.ProjectDir = d:\donet\Lab_C\
+=======
+build_property.ProjectDir = c:\Lesson Material\Lab_C\
+>>>>>>> a7d433f2855e7d4d768e7e8e240cb46873594574
