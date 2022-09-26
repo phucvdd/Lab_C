@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 // Huy
 namespace Lab_C
 {
-    public class Marks_Subject : Marks ,IMarks
+    public class Marks_Subject : Marks, IMarks
     {
         private string _rollNo;
         public string RollNo
@@ -19,8 +19,6 @@ namespace Lab_C
                     System.Console.Write("Input again: ");
                     rollnum = Console.ReadLine();
                 }
-
-
                 _rollNo = rollnum;
             }
         }
@@ -31,30 +29,48 @@ namespace Lab_C
             set
             {
                 string name = value;
-
-                while (name.Length > 50)
+                while (true)
                 {
                     if (name.Length > 50)
                     {
-                        System.Console.Write("Name only have 50 character! Input again: ");
-                        name = Console.ReadLine();
+                        if (name.Length > 50)
+                        {
+                            System.Console.Write("Name only have 50 character! Input again: ");
+                            name = Console.ReadLine();
+                            continue;
+                        }
                     }
+
+                    Regex regex = new Regex(@"^[-+]?[0-9]*.?[0-9]+$");
+                    if (regex.IsMatch(name))
+                    {
+                        if (regex.IsMatch(name))
+                        {
+                            System.Console.WriteLine("Name must be alphabet character!");
+                            System.Console.Write("Input again: ");
+                            name = Console.ReadLine();
+                            continue;
+                        }
+                    }
+                    break;
                 }
 
-                Regex regex = new Regex(@"^[-+]?[0-9]*.?[0-9]+$");
-                while (regex.IsMatch(name))
-                {
-                    if(regex.IsMatch(name)){
-                        System.Console.WriteLine("Name must be alphabet character!");
-                        System.Console.Write("Input again: ");
-                        name = Console.ReadLine();
-                    }
-                }
                 _studentName = name;
             }
         }
 
+        public void inputMarks()
+        {
+            
+        }
+        public void printMarks()
+        {
 
+        }
+        public override bool getBonus()
+        {
+            return true;
+        }
     }
 
 
