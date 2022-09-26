@@ -76,7 +76,7 @@ namespace Lab_C
         public override string ToString()
         {
             Subject subject = new Subject();
-            string s = "Subject Code: " + subject._subjectCode + "Subject Name: " + subject._subjectName + "Number of theory: " + subject._theory + "Number of practice: " + subject._practice;
+            string s = "Subject Code: " + subject.SubjectCode + "Subject Name: " + subject.SubjectName + "Number of theory: " + subject.Theory + "Number of practice: " + subject.Practice;
             return s;
         }
 
