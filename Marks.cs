@@ -44,5 +44,6 @@ namespace Lab_C_
             else return true;
         }
         public abstract bool getBonus();
+        
     }
 }
