@@ -48,7 +48,7 @@ namespace Lab_C
                     System.Console.Write("Enter again: ");
                     numberOfTheory = int.Parse(System.Console.ReadLine());
                 }
-                _theory = value; 
+                _theory = numberOfTheory; 
                 }
         }
         
@@ -64,13 +64,13 @@ namespace Lab_C
                     System.Console.Write("Enter again: ");
                     numberofPractice = int.Parse(System.Console.ReadLine());
                 }
-                _practice = value; 
+                _practice = numberofPractice; 
                 }
         }
 
-        public void getTotalLessons(){
-            int total;
-            total = _theory + _practice;
+        public int getTotalLessons(){
+            
+            return _theory + _practice;
         }
 
         public override string ToString()
@@ -82,17 +82,17 @@ namespace Lab_C
 
         public void inputSubject(){
             System.Console.WriteLine("Enter subject code: ");
-            _subjectCode = System.Console.ReadLine();
+            this.SubjectCode = System.Console.ReadLine();
             System.Console.WriteLine("Enter subject name: ");
-            _subjectName = System.Console.ReadLine();
+            this.SubjectName = System.Console.ReadLine();
             System.Console.WriteLine("Enter number of theory: ");
-            _theory = int.Parse(System.Console.ReadLine());
+            this.Theory = int.Parse(System.Console.ReadLine());
             System.Console.WriteLine("Enter number of theory: ");
-            _practice = int.Parse(System.Console.ReadLine());
+            this.Practice = int.Parse(System.Console.ReadLine());
         }
 
         public void printInfo(){
-            System.Console.WriteLine("Information about subject: ");
+            System.Console.WriteLine("==================================");
             System.Console.WriteLine("Subject code: " + _subjectCode);
             System.Console.WriteLine("Subject name: " + _subjectName);
             System.Console.WriteLine("Number of theory: " + _theory);

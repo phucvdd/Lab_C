@@ -83,13 +83,14 @@ namespace Lab_C
                     DateTime dt =  DateTime.ParseExact(date, "dd/MM/yyyy",System.Globalization.CultureInfo.InvariantCulture);
                     DateTime crr = DateTime.Now;
                     int compare = DateTime.Compare(dt, crr);
-                    
+                    // dt > crr
                     if(compare > 0) {
                         System.Console.WriteLine("Date is not valid");
                         System.Console.Write("Input again: ");
                         date = Console.ReadLine();
                         continue;
                     }
+                    break;
                 }
 
                 _joinDate = date;
