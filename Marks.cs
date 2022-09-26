@@ -1,8 +1,8 @@
 using System;
-
-namespace Lab_C_
+// Khang
+namespace Lab_C
 {
-    abstract class Marks
+    public abstract class Marks
     {
         private int _passLevel;
         public int PassLevel
