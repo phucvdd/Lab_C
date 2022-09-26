@@ -60,7 +60,7 @@ namespace Lab_C
                 bool IsDate(string tempDate)
                 {
                     DateTime fromDateValue;
-                    var formats = new[] { "dd/MM/yyyy"};
+                    var formats = new[] { "dd/MM/yyyy" };
                     if (DateTime.TryParseExact(tempDate, formats, System.Globalization.CultureInfo.InvariantCulture, System.Globalization.DateTimeStyles.None, out fromDateValue))
                     {
                         return true;
@@ -71,18 +71,35 @@ namespace Lab_C
                     }
                 }
                 string date = value;
-                while(!IsDate(date)){
-                    System.Console.WriteLine("Date is not valid");
-                    System.Console.Write("Input again: ");
-                    date = Console.ReadLine();  
+                while (true)
+                {
+                    if (!IsDate(date))
+                    {
+                        System.Console.WriteLine("Date is not valid");
+                        System.Console.Write("Input again: ");
+                        date = Console.ReadLine();
+                        continue;
+                    }
+                    DateTime dt =  DateTime.ParseExact(date, "dd/MM/yyyy",System.Globalization.CultureInfo.InvariantCulture);
+                    DateTime crr = DateTime.Now;
+                    int compare = DateTime.Compare(dt, crr);
+                    
+                    if(compare > 0) {
+                        System.Console.WriteLine("Date is not valid");
+                        System.Console.Write("Input again: ");
+                        date = Console.ReadLine();
+                        continue;
+                    }
                 }
+
                 _joinDate = date;
             }
         }
-        public int getWorkedYear(){
-            int joinY = int.Parse(this._joinDate.Substring(6,4));
-            DateTime today= DateTime.Now;
-            int crr = today.Year;   
+        public int getWorkedYear()
+        {
+            int joinY = int.Parse(this._joinDate.Substring(6, 4));
+            DateTime today = DateTime.Now;
+            int crr = today.Year;
             return crr - joinY;
         }
     }
